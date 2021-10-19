@@ -14,7 +14,11 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@sandeep/data-access": ["libs/data-access/src/index.ts"],
+      "@sandeep/shared": ["libs/shared/src/index.ts"],
+      "@sandeep/ui": ["libs/ui/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
